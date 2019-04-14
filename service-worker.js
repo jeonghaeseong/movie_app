@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jeonghaeseong/movie_app/precache-manifest.442f200d53b51a223715e98be90185c6.js"
+  "/movie_app/precache-manifest.bbf74582ab33120f84d8317f7fff2be2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jeonghaeseong/movie_app/index.html", {
+workbox.routing.registerNavigationRoute("/movie_app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
